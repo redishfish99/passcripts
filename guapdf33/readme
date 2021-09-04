@@ -1,0 +1,9 @@
+This is GuaPDF Free Demo release, CPU client.
+
+If you wish to test your NVIDIA or AMD
+GPU card for 40-bit key testing, download
+GPU client and run GuaPDF.Free.OpenCL
+
+If the program doesn't start, first you should
+install Microsoft Visual C++ 2005 Redistributable Package
+http://go.microsoft.com/fwlink/?linkid=65127

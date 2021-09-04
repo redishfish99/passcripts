@@ -1,0 +1,112 @@
+Changes in the versions:
+
+3.3
+  - Parsing and decryption engine substantially rewritten,
+a lot of bugs fixed.
+   
+
+3.25
+  - OpenCL code speed-up: on Fermi - up to 30%, on 
+AMD - up to 15%
+  - support of 40-bit encryption with revision 3
+  - up to 5% key test optimization on Core 2/iX 
+
+3.2
+  - Acrobat X encryption support
+  - OpenCL version, working on both NVIDIA and AMD cards.
+Should be faster than CUDA version.
+  - A lot of decryption and parsing bug fixes
+
+3.11a
+  - Fermi (GTX 4xx) support (only CUDA version).
+
+3.11
+  - Some parsing bugs fixed again
+  - A little optimization for Core 2/Athlon K10 (less than 3%)
+  - CUDA 3.0 linked
+
+3.1
+  - NVIDIA GPU accelaration added for 40-bit key testing.
+
+3.02
+  - Serious bug when decrypting compressed files fixed
+  - "String truncated" warnings almost eliminated
+  - Better PDF form support
+
+3.01
+  - Some parsing bugs fixed
+  - Mac version is available
+
+3.0
+  - Acrobat 9.0 support, including 256-bit AES encryption and
+Unicode passwords
+  - Removal of some restrictions set by digital signatures
+  - New version scheme: local and distibuted. 
+
+2.3a
+  - Several parsing/compatibility bugs fixed.
+
+2.3
+  - 30% speed-up on Core 2 chips. The theoretical value of 1100
+ticks per password has been beat.
+  - Better compatibility with PDF 1.7
+  - New domain www.guapdf.com
+
+2.22
+  - Some parsing bugs fixed
+  - "Illegal instruction" bug on AMD fixed (Linux version).
+
+2.21
+  - Serious AES decryption bug fixed
+
+2.2
+  - Acrobat 7.0 (PDF 1.6) support including AES encryption and
+unencrypted metadata feature (restrictions removal only)
+  - 10-25% speed-up on Pentium 4 and AMD. Kernel crypto function
+for any processor now can be easily added and the best rate
+functions are chosen automatically. New /pXYZ option.
+(n-clients version only).
+  - 2-clients version instead of 1-client (for the same price) to use
+the power of dual/dual-core processors. 
+  - DEMO limitation changed, now FREE version doesn't stop but
+produces the file with few readable pages. 
+
+2.1a
+  - Interruption by Ctrl+C bug on multiprocessor and P4 HyperThreading
+    computers fixed (command-line versions only)
+
+2.1
+  - Few decryption bugs fixed
+
+2.0
+  - GUI version available, command-line is now full Win32 application
+  - Engine fully rewritten, Acrobat 6.0 (PDF 1.5) support, no more
+"String truncated" warnings (at least, up to PDF 1.4)
+  - Pentium 4 optimization
+  - More accurate estimated time calculation
+
+1.2:
+   - Acrobat 5.x (PDF 1.4) 128-bit encryption support - restrictions
+removal only, files encrypted with user password can't be
+guaranteed decrypted.
+   - Few parsing bugs have been fixed.
+   - First client now can be considered as "server". The decryption
+is performed on this client only. New /1 option. (n-clients versions
+only).
+   - Demo limitations has been changed slightly, now it can decrypt
+larger files.
+   - Linux version available.
+
+1.1:
+   - /p option has been extended, now you can decrypt files with
+known  onwer password instantly.  Restrictions  remover  version
+hasn't been changed.
+
+1.0:
+   - key testing is 5% faster
+   - new options /p, /y
+   - fixed minor bugs in parsing and decrypting
+   - some interface improvement
+
+0.9:
+   - First  (BETA) version  released.

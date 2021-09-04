@@ -1,0 +1,1 @@
+﻿New-SmbMapping -LocalPath 'X:' -RemotePath '\\192.168.2.8\Shares'
